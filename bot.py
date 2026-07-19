@@ -59,10 +59,10 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = "8290623384:AAFQO38JmEzlUApCxkOklxfZh1tGnYM55gI"
 
 # Load thresholds
-CPU_THRESHOLD = {cpu}
-MEMORY_THRESHOLD = {memory}
-MAX_RUNNING_PROCESSES = {processes}
-MAX_FILES_PER_USER = {file_limit}
+CPU_THRESHOLD = 90.0
+MEMORY_THRESHOLD = 90.0
+MAX_RUNNING_PROCESSES = 999
+MAX_FILES_PER_USER = 999
 
 # Application directories
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
